@@ -1,4 +1,7 @@
 @import 'settings';
+
+$callout-border-secondary: none;
+
 @import 'foundation-emails';
 
-@import 'template/template';
+@import 'template/invoice';
