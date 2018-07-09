@@ -1,0 +1,111 @@
+/**
+ * Facebook button class
+ */
+
+table.button.facebook {
+    table {
+      td {
+        background: #4267B2;
+        color: $button-color;
+        border: 0px solid #4267B2;
+      }
+  
+      a {
+        color: $button-color;
+        border: 0 solid #4267B2;
+      }
+    }
+  }
+
+table.button.facebook:hover {
+  table {
+    td {
+      background: lighten(#4267B2, 10%);
+      color: $button-color;
+    }
+
+    a {
+      border: 0 solid lighten(#4267B2, 10%);
+    }
+  }
+}
+
+table.button.facebook:hover {
+    table {
+      td a {
+        color: $button-color;
+      }
+    }
+  }
+  
+  table.button.facebook:active {
+    table {
+      td a {
+        color: $button-color;
+      }
+    }
+  }
+  
+  table.button.facebook {
+    table {
+      td a:visited {
+        color: $button-color;
+      }
+    }
+  }
+
+/**
+ * YouTube button class
+ */
+
+table.button.youtube {
+    table {
+      td {
+        background: #FF0000;
+        color: $button-color;
+        border: 0px solid #FF0000;
+      }
+  
+      a {
+        color: $button-color;
+        border: 0 solid #FF0000;
+      }
+    }
+  }
+
+table.button.youtube:hover {
+  table {
+    td {
+      background: lighten(#FF0000, 10%);
+      color: $button-color;
+    }
+
+    a {
+      border: 0 solid lighten(#FF0000, 10%);
+    }
+  }
+}
+
+table.button.youtube:hover {
+    table {
+      td a {
+        color: $button-color;
+      }
+    }
+  }
+  
+  table.button.youtube:active {
+    table {
+      td a {
+        color: $button-color;
+      }
+    }
+  }
+  
+  table.button.youtube {
+    table {
+      td a:visited {
+        color: $button-color;
+      }
+    }
+  }
