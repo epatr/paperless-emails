@@ -84,7 +84,7 @@ $subheader-margin-bottom: 8px;
 $hr-width: $global-width;
 $hr-border: 1px solid $medium-gray;
 $hr-margin: 20px auto;
-$anchor-text-decoration: none;
+$anchor-text-decoration: underline;
 $anchor-color: $primary-color;
 $anchor-color-visited: $anchor-color;
 $anchor-color-hover: darken($primary-color, 10%);
