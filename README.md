@@ -62,6 +62,8 @@ npm run-script build
 This repository uses [Netlify](https://netlify.com) as a static site host. It
 watches this repository for changes and automatically builds the site for you.
 
+The site can be found at https://paperless-inspectors-emails.netlify.com/
+
 
 ## Built With
 

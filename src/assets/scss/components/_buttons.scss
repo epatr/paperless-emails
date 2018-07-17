@@ -61,14 +61,14 @@ table.button.facebook:hover {
 table.button.youtube {
     table {
       td {
-        background: #FF0000;
+        background: #d02525;
         color: $button-color;
-        border: 0px solid #FF0000;
+        border: 0px solid #d02525;
       }
   
       a {
         color: $button-color;
-        border: 0 solid #FF0000;
+        border: 0 solid #d02525;
       }
     }
   }
@@ -76,12 +76,12 @@ table.button.youtube {
 table.button.youtube:hover {
   table {
     td {
-      background: lighten(#FF0000, 10%);
+      background: lighten(#d02525, 10%);
       color: $button-color;
     }
 
     a {
-      border: 0 solid lighten(#FF0000, 10%);
+      border: 0 solid lighten(#d02525, 10%);
     }
   }
 }
