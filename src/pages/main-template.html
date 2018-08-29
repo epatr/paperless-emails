@@ -2,15 +2,8 @@
 subject: New message from AmeriPro Inspection Corporation
 description: You've received a new message from AmeriPro Inspection Corporation
 ---
-<table cellpadding="0" cellspacing="0" border="0" width="100%">
-    <tbody>
-        <tr valign="middle">
-            <td align="center" bgcolor="#ffffff" style="text-align: center; padding: 25px;">
-                <img src="https://s3.amazonaws.com/ericinspectiondepot/ameripro.png" alt="AmeriPro Inspection Corporation" style="display:inline;">
-            </td>
-        </tr>
-    </tbody>
-</table>
+
+{{> row-logo }}
 
 <spacer size="48"></spacer>
 
@@ -40,11 +33,7 @@ description: You've received a new message from AmeriPro Inspection Corporation
 
     <spacer size="32"></spacer>
 
-    <row class="text-center">
-        <columns class="text-center">
-            <center><button class="alert radius" href="#">Download Inspection Report</button></center>
-        </columns>
-    </row>
+    {{> row-button-download }}
 
     <table cellpadding="0" cellspacing="0" border="0" width="100%">
         <tbody>
@@ -88,41 +77,13 @@ description: You've received a new message from AmeriPro Inspection Corporation
 
     <spacer size="32"></spacer>
 
-    <row>
-        <column class="text-center">
-
-            <center> 
-                <img src="assets/img/icon-phone.png" alt="(800) 991-0142">
-                <p class="text-center" style="font-size: 24px;">(800) 991-0142</p>
-                <p class="text-center">We are open Monday - Friday, 8:30 AM - 5:30 PM</p>
-            </center>
-        </column>
-    </row>
+    {{> row-company-phone}}
     
-    <center>
-            <table class="hr">
-                <tr>
-                    <th>
-                    <table><tr><td style="font-size: 12px; line-height: 12px;">&nbsp;</td></tr></table>
-                    </th>
-                </tr>
-            </table>
-    </center>
+    {{> row-hr }}
 
     <spacer size="12"></spacer>
 
-    <row>
-        <column>
-            <center>
-
-                <p class="text-center" style="font-size:20px;">AmeriPro Inspection Corporation</p>
-                <p class="text-center">3131 St Johns Bluff Rd S, Jacksonville, FL 32246<br>
-                <a href="mailto:info@chooseameripro.com">info@chooseameripro.com</a></p>
-
-            </center>
-
-        </column>
-    </row>
+    {{> row-company-info }}
 
     <spacer size="12"></spacer>
 
@@ -130,21 +91,9 @@ description: You've received a new message from AmeriPro Inspection Corporation
 
     <spacer size="24"></spacer>
 
-    <row>
-        <column>
-            <p><small>This message contains confidential information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this email. Please notify the sender immediately by email if you have received this email by mistake and delete this email from your system. Email transmission cannot be guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. The sender therefore does not accept liability for any error or omissions in the contents of this message, which arise as a result of email transmission. If verification is required please request a hard-copy version.</small></p>
+    {{> row-confidentiality }}
 
-            <p><small>Go Green: Please do not print this email unless you really need to.</small></p>
-        </column>
-    </row>
-
-    <row>
-        <column class="text-center">
-            <center>
-                <p class="text-center"><small><a href="#" style="color:#8a8a8a;text-decoration:underline;">View this email in a browser</a></small></p>
-            </center>
-        </column>
-    </row>
+    {{> row-browser-link }}
 
     <spacer size="12"></spacer>
 
